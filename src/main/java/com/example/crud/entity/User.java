@@ -16,6 +16,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //i should add parents in it, then make it more realistic as well
     private Long id;
     private String name;
     private String surName;
